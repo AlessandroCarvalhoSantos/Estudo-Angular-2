@@ -1,0 +1,81 @@
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Diretórios de dependências
+node_modules/
+bower_components/
+
+# Build e Output
+dist/
+out-tsc/
+build/
+
+# Logs e relatórios
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Compilação Angular
+.angular/
+.angular-cache/
+
+# Arquivos temporários ou de cache
+*.tmp
+*.temp
+*.log
+*.lock
+*.gz
+*.map
+
+# Testes
+coverage/
+test-output/
+karma-results/
+
+# Configurações locais
+*.local
+*.env
+*.env.*.local
+*.env.local
+.env.*
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Configurações de cache do npm
+.npm/
+
+# Arquivos do TypeScript
+*.tsbuildinfo
+
+# Arquivos relacionados ao Angular Universal
+server/main.js
+server/main.js.map
+
+# Diretórios do Docker (caso usado)
+docker-compose.override.yml
+docker-compose.yml
+
+# Arquivos do Firebase Hosting (caso usado)
+.firebase/
+.firebaserc
+
+# Configurações específicas do ambiente
+src/environments/environment*.ts
+src/assets/config/*.json
+
+# Arquivos temporários e cache do ESLint
+.eslintcache
+
+# Outras configurações específicas do projeto
+**/typings
+.sass-cache/
